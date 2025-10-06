@@ -12,7 +12,7 @@ export default function Intro() {
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-black text-white z-50">
-      <img src="/logo-police.png" alt="police logo" className="w-24 h-24 mb-4 animate-pulse" />
+      <img src="/logo-police.png" alt="police logo" className="mb-4 animate-pulse max-w-full h-auto" />
       <h1 className="text-2xl font-bold text-blue-400 drop-shadow-lg">تحديث مركز العمليات للشرطة</h1>
     </div>
   );
